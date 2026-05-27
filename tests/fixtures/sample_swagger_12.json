@@ -1,0 +1,8 @@
+{
+  "swagger": "1.2",
+  "info": {
+    "title": "Legacy API",
+    "version": "1.0.0"
+  },
+  "apis": []
+}
