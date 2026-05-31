@@ -71,7 +71,7 @@ class CurlCommandResult:
 
 def handle_help(args) -> None:
     """Display CLI help per PRD section 13.1."""
-    print("Usage: restx [SPEC_URL_OR_FILE] [OPTIONS]")
+    print("Usage: restx.py [SPEC_URL_OR_FILE] [OPTIONS]")
     print()
     print("Interactive command-line tool for exploring REST API specifications.")
     print()
@@ -89,11 +89,11 @@ def handle_help(args) -> None:
     print("  --help, -h                   Show this help message and exit")
     print()
     print("Examples:")
-    print("  restx https://petstore.swagger.io/v2/swagger.json")
-    print("  restx ./local-spec.json")
-    print("  cat spec.json | restx")
+    print("  restx.py https://petstore.swagger.io/v2/swagger.json")
+    print("  restx.py ./local-spec.json")
+    print("  cat spec.json | restx.py")
     print()
-    print("GitHub Repo: https://github.com/restx/restx")
+    print("GitHub Repo: https://github.com/cruxcoder/rest-explorer")
 
 
 def handle_version(args) -> None:
