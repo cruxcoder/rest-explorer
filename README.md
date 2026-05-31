@@ -22,6 +22,17 @@ Python · rich · prompt_toolkit · PyYAML · requests
 pip install -r requirements.txt
 python restx.py --help
 ```
+## Screenshots
+
+<div align="center">
+
+### CLI Help Output
+<img src="docs/img/screenshot1.png" width="800" alt="CLI help output">
+
+### Command Execution
+<img src="docs/img/screenshot2.png" width="800" alt="Command execution">
+
+</div>
 
 ## AI-Assisted Workflow
 This project was built using a decoupled AI workflow based on Matt Pocock's methodology, adapted for a Lumo + Cursor toolchain:
